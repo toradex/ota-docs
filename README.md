@@ -2,7 +2,7 @@
 ---
 ### navigate to https://app.torizon.io
 - Create a user-account  
-<img src="uploads/dd3cc270d6ff8dbd30f20a291f741155/createAccount.png"  width="400">   
+<img src="./img/createAccount.png"  width="400">   
   
 - Log In
 <img src="./img/login-screen.png"  width="350">  

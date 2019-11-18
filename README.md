@@ -1,4 +1,21 @@
-# Accessing the OTA Admin Frontend
+<a href="https://app.torizon.io">
+<img src="./img/pitch.png"  width="800">   
+</a>  
+
+# Torizon OTA
+- A Project under active Development in [Toradex Labs](https://labs.toradex.com/projects/torizon-over-the-air)
+-  :warning: :biohazard: **Toradex OTA is EXPERIMENTAL AND NOT OFFICIALLY SUPPORTED!!!** :zap: :bomb:
+
+# Getting started with OTA
+:pencil:
+If you are **new to Toradex** and just purchased a module, our Getting-Started guide is 
+a good place to begin (come back here after familiarizing yourself there)
+
+**Running TorizonCore is a pre-requisite for using Toradex OTA**  
+You can learn about torizon on our developer site: 
+https://developer.toradex.com/software/torizon
+
+## Accessing the OTA Admin Frontend
 ---
 ### navigate to https://app.torizon.io
 - Create a user-account  
@@ -10,7 +27,7 @@
 # Explore :smirk: 
 - Provide feedback/shower-thoughts in this slack channel: https://toradex.slack.com/messages/in-devops-ext/
 
-# Provisioning A Device
+## Provisioning A Device
 - In the web frontend, under the devices page, click on the "NEW DEVICE" button.
 <img src="./img/createDevice.png"  width="700">   
    
@@ -61,24 +78,10 @@ Sep 13 19:15:32 apalis-imx6-05076305 aktualizr[15078]: got SendDeviceDataComplet
 <img src="./img/is-it-online-arrow.png"  width="350"> 
    
 
-# Release Notes
-- Add support for TLS on all OTA endpoints
-- Use kong as public ingress instead of Traefik
-- Move reverse-proxy behind kong ingress (provides TLS to treehub/oauth2 garage-push)
-- Add Support for Deleting Devices
-- Add Support for Deleting Fleets
-- Updates to UI
-  - Landing page
-  - Dashboard
-  - Feedback page
-  - Add provision device button
-  - General UI tweaks
-- Improvements to auto-provisioning flow. Add info.json to device.zip archive
-- Improvements on provisioning container bump version 0.1 -> 0.2
-  - Better error handling
-  - Dumps the device info on successful provision
-- Add fun-names to devices when they are created
-
-# Outstanding for Labs Release
-- Stress Testing
-- Marketing Survey (link currently doesn't go anywhere)
+# Debugging
+- Upon provisioning device, you receive:
+    ```
+     Failed to download token :(
+     HTTP ERROR 000
+    ```
+  - This usually means you aren't able to resolve the server's hostname. Make sure your network connection is up, and DNS is working as expected.

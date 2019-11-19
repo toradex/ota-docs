@@ -70,11 +70,11 @@ Sep 13 19:15:32 apalis-imx6-05076305 aktualizr[15078]: got SendDeviceDataComplet
 <img src="./img/is-it-online-arrow.png"  width="350"> 
 
 # Packages and Updates
-Toradex is publishing nightly builds to the OTA server. These builds are not guaranteed to work!
-Currently we do not allow users of the system to publish their own images
+Toradex is publishing nightly development builds to the OTA server.   
+At this time, we do not allow users of the system to publish their own images
 
 ## Container updates
-A big feature of TorizonCore is the ability to run containers, and therefore one would expect to be able to update their containers from the OTA server.
+A big feature of TorizonCore is the ability to run containers, and therefore one would expect to be able to update their containers from the OTA server.   
 This feature is planned, but not currrently implemented in Torizon OTA. Look for it in future versions!
 
 

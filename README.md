@@ -8,9 +8,6 @@
 
 # Getting started with OTA
 :pencil:
-If you are **new to Toradex** and just purchased a module, our Getting-Started guide is 
-a good place to begin (come back here after familiarizing yourself there)
-
 **Running TorizonCore is a pre-requisite for using Toradex OTA**  
 You can learn about torizon on our developer site: 
 https://developer.toradex.com/software/torizon
@@ -25,7 +22,7 @@ https://developer.toradex.com/software/torizon
 <img src="./img/login-screen.png"  width="350">  
     
 # Explore :smirk: 
-- Provide feedback/shower-thoughts in this slack channel: https://toradex.slack.com/messages/in-devops-ext/
+- Provide feedback/shower-thoughts in this slack channel: https://toradexlabs.slack.com/messages/ota/
 
 ## Provisioning A Device
 - In the web frontend, under the devices page, click on the "NEW DEVICE" button.
@@ -40,19 +37,14 @@ https://developer.toradex.com/software/torizon
 :pencil: So far this has worked well for me even over serial console. There is the likelihood for data to become garbled/corrupted when copying over serial. Please report this if you experience it.
 
 
-- For good measure, Restart Aktualizr
-```
-systemctl restart aktualizr
-```
-:pencil:  This often works without restarting aktualizr, but sometimes (especially if previously provisioned to an ota backend) aktualizr gets confused.
 
-...or if you want to watch the logs after restarting 
+... or if you want to watch the aktualizr logs 
 ```
-systemctl restart aktualizr && journalctl -f -u aktualizr
+sudo journalctl -f -u aktualizr
 ```
 Example logs:
 ```
-root@apalis-imx6-05076305:/var/sota# systemctl restart aktualizr && journalctl -f -u aktualizr
+root@apalis-imx6-05076305:/var/sota# sudo journalctl -f -u aktualizr
 -- Logs begin at Fri 2019-09-13 03:50:29 UTC. --
 Sep 13 19:13:19 apalis-imx6-05076305 aktualizr[15032]: Use existing SQL storage: "/var/sota/sql.db"  
 Sep 13 19:13:19 apalis-imx6-05076305 aktualizr[15032]: Couldn't import data: "/var/sota/import/root.crt" doesn't      exist.   
@@ -76,7 +68,16 @@ Sep 13 19:15:32 apalis-imx6-05076305 aktualizr[15078]: got SendDeviceDataComplet
 ```
 - Your device should now be provisioned and talking with the ota backend!
 <img src="./img/is-it-online-arrow.png"  width="350"> 
-   
+
+# Packages and Updates
+Toradex is publishing nightly builds to the OTA server. These builds are not guaranteed to work!
+Currently we do not allow users of the system to publish their own images
+
+## Container updates
+A big feature of TorizonCore is the ability to run containers, and therefore one would expect to be able to update their containers from the OTA server.
+This feature is planned, but not currrently implemented in Torizon OTA. Look for it in future versions!
+
+
 
 # Debugging
 - Upon provisioning device, you receive:

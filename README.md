@@ -4,7 +4,7 @@
 
 # Torizon OTA
 - A Project under active Development in [Toradex Labs](https://labs.toradex.com/projects/torizon-over-the-air)
--  :warning: :biohazard: **Toradex OTA is EXPERIMENTAL AND NOT OFFICIALLY SUPPORTED!!!** :zap: :bomb:
+-  :warning: :biohazard: **Toradex OTA is EXPERIMENTAL!!!** :zap: :bomb:
 
 # Getting started with OTA
 :pencil:

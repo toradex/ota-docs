@@ -1,5 +1,5 @@
 <a href="https://app.torizon.io">
-<img src="./img/pitch.png"  width="800">   
+<img src="./img/pitch.png"  width="900">   
 </a>  
 
 # Torizon OTA
@@ -16,10 +16,10 @@ https://developer.toradex.com/software/torizon
 ---
 ### navigate to https://app.torizon.io
 - Create a user-account  
-<img src="./img/createAccount.png"  width="400">   
+<img src="./img/createAccount.png"  width="300">   
   
 - Log In
-<img src="./img/login-screen.png"  width="350">  
+<img src="./img/login-screen.png"  width="250">  
     
 # Explore :smirk: 
 - Provide feedback/shower-thoughts in this slack channel: https://toradexlabs.slack.com/messages/ota/

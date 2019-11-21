@@ -23,6 +23,7 @@ https://developer.toradex.com/software/torizon
     
 # Explore :smirk: 
 - Provide feedback/shower-thoughts in this slack channel: https://toradexlabs.slack.com/messages/ota/
+- Request a slack invite: https://app.torizon.io/#/slack-invite
 
 ## Provisioning A Device
 - In the web frontend, under the devices page, click on the "NEW DEVICE" button.

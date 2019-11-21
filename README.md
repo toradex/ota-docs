@@ -9,7 +9,7 @@
 # Getting started with OTA
 :pencil:
 **Running TorizonCore is a pre-requisite for using Toradex OTA**  
-You can learn about tTorizonCore on our developer site: 
+You can learn about TorizonCore on our developer site: 
 https://developer.toradex.com/software/torizon
 
 ## Accessing the OTA Admin Frontend

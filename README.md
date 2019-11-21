@@ -31,7 +31,7 @@ https://developer.toradex.com/software/torizon
 - Copy premade docker command
 <img src="./img/copyThis.png" width="700"> 
 
-- Login to a module running torizonCore
+- Login to a module running TorizonCore
 
 - paste and run command  
 :pencil: So far this has worked well for me even over serial console. There is the likelihood for data to become garbled/corrupted when copying over serial. Please report this if you experience it.

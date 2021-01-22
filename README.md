@@ -3,8 +3,12 @@
 </a>  
 
 # Torizon OTA
+- Torizon OTA is in a soft launch stage. Follow the most updated instructions on [Torizon OTA (Over the Air Updates)](https://developer.toradex.com/knowledge-base/torizon-update-system)
 - A Project under active Development in [Toradex Labs](https://labs.toradex.com/projects/torizon-over-the-air)
--  :warning: :biohazard: **Toradex OTA is EXPERIMENTAL!!!** :zap: :bomb:
+
+<div style="background-color:#fff5d8;color:black;padding:15px;"></strong><b>Warning: </b></strong>The info of this page is depracate and the content is kept for reference only. See the <a href="(https://developer.toradex.com/knowledge-base/torizon-update-system">Torizon OTA (Over the Air Updates)</a> page for the most updated info</div>
+
+
 
 # Getting started with OTA
 :pencil:
